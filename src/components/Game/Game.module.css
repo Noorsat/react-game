@@ -1,0 +1,35 @@
+.Game{
+    max-width:50%;
+    margin: 0 auto;
+    border:1px dashed #fff;
+    padding:40px;
+    border-radius: 20px;    
+}
+.game__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.my__choice, .bot__choice{
+    font-size: 20px;
+    text-decoration:underline;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.list img{
+    transition: all ease 0.5s;
+}
+.list img:hover{
+    transform: scale(1.5);
+}
+.result{
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
